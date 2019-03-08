@@ -234,8 +234,6 @@ $(() => {
                     <button type="button" class="buy" id="${item.id}">Buy now!"</button>
                 </div>
             </li>
-
-
             `;
         });
         $(location).html(template);
@@ -247,16 +245,11 @@ $(() => {
         cart.push(a);
 
         const item = `
-    
-    
             <li class="item" id="${a.id}">
             <h4>${a.name}</h4>
             <button type=button">X</button>
             </li>
-    
-    
             `;
-
         $('span.amount').text(cart.length);
         $(location).append(item);
     };
