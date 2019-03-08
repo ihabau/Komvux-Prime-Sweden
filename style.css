@@ -1,0 +1,15 @@
+.grid{	
+	grid-column-gap: 1rem; 
+}
+.fraction{
+	text-align: center;
+	width: calc(100%/5) !important;
+}
+.seperator{
+	font-size: 2rem;
+	text-align: center;
+	width: 1rem;
+}
+.fab{
+	font-size: 1.5rem;
+}
